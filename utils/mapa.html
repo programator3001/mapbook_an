@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d6ead1994e9ab48a278057a76dd8a324 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d6ead1994e9ab48a278057a76dd8a324" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d6ead1994e9ab48a278057a76dd8a324 = L.map(
+                "map_d6ead1994e9ab48a278057a76dd8a324",
+                {
+                    center: [52.21, 21.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0127eb0ad989dc36f2be53ef5dfa47bc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0127eb0ad989dc36f2be53ef5dfa47bc.addTo(map_d6ead1994e9ab48a278057a76dd8a324);
+        
+    
+            var marker_235af40128bf1554454b36189846eefe = L.marker(
+                [53.821389, 22.362222],
+                {
+}
+            ).addTo(map_d6ead1994e9ab48a278057a76dd8a324);
+        
+    
+        var popup_f71d285d4c334f597008f48dda4c66e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fec144739aa613c7f29565d6579bb12 = $(`<div id="html_2fec144739aa613c7f29565d6579bb12" style="width: 100.0%; height: 100.0%;">Ełk Bernard</div>`)[0];
+                popup_f71d285d4c334f597008f48dda4c66e5.setContent(html_2fec144739aa613c7f29565d6579bb12);
+            
+        
+
+        marker_235af40128bf1554454b36189846eefe.bindPopup(popup_f71d285d4c334f597008f48dda4c66e5)
+        ;
+
+        
+    
+    
+            var marker_e428b459d2aec6de451a5d7b3b8f11be = L.marker(
+                [51.648611, 20.95],
+                {
+}
+            ).addTo(map_d6ead1994e9ab48a278057a76dd8a324);
+        
+    
+        var popup_45f7068c53bffa6a3131be49c7cade26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60d5e9dac0b5afb9a83d4e1700afd17d = $(`<div id="html_60d5e9dac0b5afb9a83d4e1700afd17d" style="width: 100.0%; height: 100.0%;">Białobrzegi Krzysztof</div>`)[0];
+                popup_45f7068c53bffa6a3131be49c7cade26.setContent(html_60d5e9dac0b5afb9a83d4e1700afd17d);
+            
+        
+
+        marker_e428b459d2aec6de451a5d7b3b8f11be.bindPopup(popup_45f7068c53bffa6a3131be49c7cade26)
+        ;
+
+        
+    
+    
+            var marker_05d496f0426e834fe18baefae4c81aa0 = L.marker(
+                [53.408333, 18.445833],
+                {
+}
+            ).addTo(map_d6ead1994e9ab48a278057a76dd8a324);
+        
+    
+        var popup_f8e55eddab0b824dfd2f19d8b8863b22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69f6acb0e7486dce185f000bcd9ae276 = $(`<div id="html_69f6acb0e7486dce185f000bcd9ae276" style="width: 100.0%; height: 100.0%;">Świecie Maja</div>`)[0];
+                popup_f8e55eddab0b824dfd2f19d8b8863b22.setContent(html_69f6acb0e7486dce185f000bcd9ae276);
+            
+        
+
+        marker_05d496f0426e834fe18baefae4c81aa0.bindPopup(popup_f8e55eddab0b824dfd2f19d8b8863b22)
+        ;
+
+        
+    
+    
+            var marker_7b2b27c0ececad829241a3f9ace97ca1 = L.marker(
+                [51.782778, 22.624167],
+                {
+}
+            ).addTo(map_d6ead1994e9ab48a278057a76dd8a324);
+        
+    
+        var popup_fd377ff75692a890429b8622e23db38d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c084052646cb51669c4bf3e2d5565b31 = $(`<div id="html_c084052646cb51669c4bf3e2d5565b31" style="width: 100.0%; height: 100.0%;">Radzyń_Podlaski Zuzanna</div>`)[0];
+                popup_fd377ff75692a890429b8622e23db38d.setContent(html_c084052646cb51669c4bf3e2d5565b31);
+            
+        
+
+        marker_7b2b27c0ececad829241a3f9ace97ca1.bindPopup(popup_fd377ff75692a890429b8622e23db38d)
+        ;
+
+        
+    
+</script>
+</html>
